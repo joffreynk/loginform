@@ -8,14 +8,16 @@ body{
 }
 
 .form {
-
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
   background-image: linear-gradient(45deg, rgb(83, 91, 235), rgb(76, 11, 174));
-
+  border-radius: 10px;
+  box-shadow: 16px 16px 16px 4px rgba(0,0,0,0.49);
+  -webkit-box-shadow: 16px 16px 16px 4px rgba(0,0,0,0.49);
+  -moz-box-shadow: 16px 16px 16px 4px rgba(0,0,0,0.49);
   }
 
   form {
