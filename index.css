@@ -60,20 +60,25 @@ input, button {
   outline: none;
   }
 
-  input::placeholder {
-    font-size: 1rem;
-    color: #5e0ce2;
-    opacity: 0.5;
-  }
+input::placeholder {
+  font-size: 1rem;
+  color: #5e0ce2;
+  opacity: 0.5;
+}
 
-  button {
-    margin-top: 1rem;
-    padding: 10px 35px;
-    border-radius: 0.5rem;
-  }
+button {
+  margin-top: 1rem;
+  padding: 10px 35px;
+  border-radius: 0.5rem;
+}
 
-  button:hover {
-    background: blueviolet;
-    color: white;
-    cursor: pointer;
-  }
+button:hover {
+  color: #1a6db1;
+  cursor: pointer;
+  transform: scale(105%);
+}
+
+#error {
+  font-size: 18px;
+  color: #fff;
+}
