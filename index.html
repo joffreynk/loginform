@@ -13,17 +13,18 @@
       <form>
         <div class="username">
           <label>User Name</label>
-          <input type="text" placeholder="Enter user Name" name="userName" />
+          <input type="text" id="userName" required placeholder="Enter user Name" name="userName" />
         </div>
         <div class="password" >
           <label>Password</label>
-          <input type="password" placeholder="Enter password" name="password" />
+          <input type="password" id="password" required placeholder="Enter password" name="password" />
         </div>
         <div class="submit">
-          <button type="submit">Login</button>
+          <button id="submit" type="submit">Login</button>
         </div>
+        <span id="error"></span>
       </form>
     </div>
-    <script type="j" src="/index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
