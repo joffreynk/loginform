@@ -1,0 +1,77 @@
+body{
+  background-image: linear-gradient(0deg, rgb(85, 217, 233),rgb(86, 73, 252));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form {
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-image: linear-gradient(45deg, rgb(83, 91, 235), rgb(76, 11, 174));
+
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+.form h2 {
+  font-size: 3rem;
+  background-color: transparent;
+  color: linear-gradient(45deg, rgb(83, 91, 235), rgb(76, 11, 174));
+  background: -webkit-linear-gradient(  #aa4f4f, #e211e2,  rgb(76, 174, 11));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.username, .password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+label {
+  font-size: 22px;
+  color: #11b8e2;
+}
+input, button {
+  flex: 1;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 5px;
+  padding-bottom: 5px;
+  color: blueviolet;
+  border: none;
+  border-radius: 0.2rem;
+  outline: none;
+  }
+
+  input::placeholder {
+    font-size: 1rem;
+    color: #5e0ce2;
+    opacity: 0.5;
+  }
+
+  button {
+    margin-top: 1rem;
+    padding: 10px 35px;
+    border-radius: 0.5rem;
+  }
+
+  button:hover {
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+  }
